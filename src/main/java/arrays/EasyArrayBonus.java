@@ -17,7 +17,7 @@ public class EasyArrayBonus
         for (char c : input.toCharArray())
         {
             if (Character.isLetter(c))
-                System.out.println(c);
+                System.out.print(c + " ");
         }
         System.out.println();
     }
